@@ -6,6 +6,7 @@ body {
 
 .navbar {
     background-color: #1fc41f; /* Yeşil arka plan */
+    text-align: center;
 }
 
 .navbar-brand, .nav-link {
@@ -22,22 +23,9 @@ body {
     border-radius: 8px;
 }
 
-.kutu {
-  display: flex;
-    justify-content: center;
-    /* Yatayda ortalar */
-    align-items: center;
-      /* Dikeyde ortalar (yükseklik ayarlanmışsa) */
-    height: 100vh;
-    /* Container yüksekliğini ayarlamak */
-}
-.kutu-img {
-  max-width: 100%;
-  /* Resmin ekran genişliğinden taşmamasını sağlar */
-  height: auto;
-  /* Yüksekliği korur */
 
-}
+
+
 footer {
     background-color: #228b22; /* Yeşil arka plan */
 }
@@ -53,7 +41,7 @@ body, html {
     width: 200%;
     height: 400px; /* Header yüksekliği */
     background-image: url('assets/images/your-background-image.jpg'); /* Arka plan resmi */
-    background-size: cover;
+    background-size: center;
     background-position: center;
 }
 
@@ -64,6 +52,7 @@ body, html {
     width: 100%;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.5); /* Saydam arka plan: Siyah renk, %50 opaklık */
+    text-align: center;
 }
 
 /* .header-content {
