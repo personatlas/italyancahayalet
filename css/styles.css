@@ -1,3 +1,4 @@
+
 body {
     background-color: #eee9e9; /* Açık gri arka plan */
     font-family: 'Roboto', sans-serif; /* Varsayılan yazı tipi */
@@ -144,3 +145,4 @@ body, html {
   from {opacity: .4}
   to {opacity: 1}
 }
+
